@@ -11,11 +11,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
         
         <style>
-			/* 사이드바 메뉴 제목(시험 표준 가이드) 아래의 주황색 선을 FITI 파란색으로 변경 */
-            .major h2::after {background: #0052a3 !important;}
-
-            /* 본문 내 주요 제목 아래의 주황색 선도 파란색으로 변경 (통일감) */
-            header.main h1::after, header.major h2::after {background: #0052a3 !important;}
             body, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-family: 'Noto Sans KR', sans-serif !important; }
             a { color: #0052a3; transition: color 0.2s; }
             a:hover { color: #0E6EB8; }
@@ -26,6 +21,10 @@
             #menu > ul > li > a:hover, #menu > ul > li > span.opener:hover { color: #0052a3; }
             .major h2::after { background: #0052a3; }
             .logo-img { height: 40px; vertical-align: middle; margin-right: 15px; }
+			/* 사이드바 '시험 표준 가이드' 아래의 선 색상 변경 */
+            #sidebar nav > header.major h2::after {background-color: #0052a3 !important;}
+            /* 본문의 제목 아래에 생기는 선도 파란색으로 통일 */
+            header.main h1::after, header.major h2::after {background-color: #0052a3 !important;}
         </style>
 	</head>
 	<body class="is-preload">
