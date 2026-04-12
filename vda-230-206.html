@@ -9,6 +9,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
         <style>
+			/* 사이드바 메뉴 제목(시험 표준 가이드) 아래의 주황색 선을 FITI 파란색으로 변경 */
+            .major h2::after {background: #0052a3 !important;}
+
+            /* 본문 내 주요 제목 아래의 주황색 선도 파란색으로 변경 (통일감) */
+            header.main h1::after, header.major h2::after {background: #0052a3 !important;}
             /* FITI 브랜드 컬러 강제 적용 */
             body, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-family: 'Noto Sans KR', sans-serif !important; }
             a { color: #0052a3; transition: color 0.2s; }
