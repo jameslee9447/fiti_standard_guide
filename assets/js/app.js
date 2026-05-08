@@ -382,7 +382,6 @@ const App = {
                   ${f.image ? `
                     <figure class="equipment-figure">
                       <img src="${f.image}" alt="${f.imageCaption}" loading="lazy" onerror="this.parentElement.style.display='none'">
-                      <figcaption>&lt;${f.imageCaption}&gt;</figcaption>
                     </figure>
                   ` : ''}
                 </div>
