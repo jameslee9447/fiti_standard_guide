@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand · 자동차 내장재 시험 표준 가이드</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230058b8'/%3E%3Cline x1='10' y1='16' x2='22' y2='16' stroke='%23fff' stroke-width='2'/%3E%3Cline x1='16' y1='10' x2='16' y2='22' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E">
+</head>
+<body data-page="category">
+  <!-- 상단 유틸리티 바 -->
+  <div class="utility-bar">
+    <div class="container">
+      <div class="utility-bar__inner">
+        <a href="https://www.fiti.re.kr" target="_blank" rel="noopener">FITI 홈페이지</a>
+      </div>
+    </div>
+  </div>
+
+  <div data-slot="header"></div>
+
+  <main>
+    <div data-render="brand-hero"></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <div class="section__title-group">
+            <div class="section__index">— CATALOG</div>
+            <h2 class="section__title" data-i18n="sections.categories">시험 카테고리</h2>
+            <p class="section__desc" data-i18n="sections.categoriesDesc">각 항목을 클릭하여 상세 시험 정보를 확인하세요</p>
+          </div>
+        </div>
+
+        <div class="cat-grid" data-render="cat-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div data-slot="footer"></div>
+  <div data-slot="search-modal"></div>
+
+  <script src="assets/data/i18n.js"></script>
+  <script src="assets/data/tests-data.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
