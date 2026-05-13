@@ -281,11 +281,9 @@ const App = {
             <div class="breadcrumb">
               <a href="index.html">${this.t('nav.home')}</a>
               <span class="sep">/</span>
-              <a href="index.html#brands">${this.t('nav.brands')}</a>
-              <span class="sep">/</span>
               <span>${this.text(brand.name)}</span>
             </div>
-            <div class="brand-hero__eyebrow">${this.t('misc.brand')} · No. 01 · KOLAS Accredited</div>
+            <div class="brand-hero__eyebrow">No. 01 · KOLAS Accredited</div>
             <h1 class="brand-hero__title">${this.text(brand.name)}</h1>
             <p class="brand-hero__subtitle">${this.text(brand.fullName)} — ${totalTests} ${this.t('misc.tests')} across ${Object.keys(brand.categories).length} ${this.t('misc.categories')}</p>
           </div>

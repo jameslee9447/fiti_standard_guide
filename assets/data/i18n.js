@@ -5,8 +5,8 @@ const I18N = {
     siteSubtitle: "Automotive Interior Testing Standards",
     nav: {
       home: "홈",
-      brands: "차종별",
-      standards: "표준별",
+      guides: "시험 가이드",
+      related: "관련 링크",
       search: "검색",
       about: "정보"
     },
@@ -19,10 +19,8 @@ const I18N = {
       ctaSecondary: "검색하기"
     },
     sections: {
-      brands: "자동차 브랜드",
-      brandsDesc: "제조사별 자체 시험 규격",
-      standards: "국제 표준",
-      standardsDesc: "글로벌 표준 시험 규격",
+      guides: "시험 가이드",
+      guidesDesc: "각 제조사 및 표준 기구의 시험 규격을 한눈에 확인하세요",
       categories: "시험 카테고리",
       categoriesDesc: "각 항목을 클릭하여 상세 시험 정보를 확인하세요",
       featured: "주요 시험 항목",
@@ -59,8 +57,8 @@ const I18N = {
     siteSubtitle: "자동차 내장재 시험 표준 가이드",
     nav: {
       home: "Home",
-      brands: "Brands",
-      standards: "Standards",
+      guides: "Testing Guides",
+      related: "Related",
       search: "Search",
       about: "About"
     },
@@ -73,10 +71,8 @@ const I18N = {
       ctaSecondary: "Search"
     },
     sections: {
-      brands: "Automotive Brands",
-      brandsDesc: "Manufacturer-specific testing standards",
-      standards: "International Standards",
-      standardsDesc: "Global standardized testing specifications",
+      guides: "Testing Guides",
+      guidesDesc: "Browse testing specifications from manufacturers and standards bodies",
       categories: "Test Categories",
       categoriesDesc: "Click each item to view detailed test information",
       featured: "Featured Tests",

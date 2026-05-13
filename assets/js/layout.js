@@ -16,8 +16,6 @@ const Layout = {
 
             <nav class="nav">
               <a class="nav__link" href="index.html" data-i18n="nav.home">홈</a>
-              <a class="nav__link" href="index.html#brands" data-i18n="nav.brands">차종별</a>
-              <a class="nav__link" href="index.html#brands" data-i18n="nav.standards">표준별</a>
             </nav>
 
             <div class="header__actions">
@@ -61,21 +59,20 @@ const Layout = {
               </p>
             </div>
             <div class="footer__col">
-              <h4 data-i18n="nav.brands">차종별</h4>
+              <h4 data-i18n="nav.guides">시험 가이드</h4>
               <ul>
                 <li><a href="brand.html?id=renault">Renault · 르노</a></li>
                 <li><a href="#" style="opacity:0.5;cursor:not-allowed">Hyundai · Kia <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
                 <li><a href="#" style="opacity:0.5;cursor:not-allowed">Toyota <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
                 <li><a href="#" style="opacity:0.5;cursor:not-allowed">Volkswagen <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
+                <li><a href="#" style="opacity:0.5;cursor:not-allowed">ISO <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
+                <li><a href="#" style="opacity:0.5;cursor:not-allowed">ASTM <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
               </ul>
             </div>
             <div class="footer__col">
-              <h4 data-i18n="nav.standards">표준별</h4>
+              <h4 data-i18n="nav.related">관련 링크</h4>
               <ul>
-                <li><a href="#" style="opacity:0.5;cursor:not-allowed">ISO <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
-                <li><a href="#" style="opacity:0.5;cursor:not-allowed">ASTM <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
-                <li><a href="#" style="opacity:0.5;cursor:not-allowed">DIN <span style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.15em;">SOON</span></a></li>
-                <li style="margin-top:14px;"><a href="https://www.fiti.re.kr" target="_blank" rel="noopener" style="color:#fff;font-weight:500;">FITI 홈페이지 →</a></li>
+                <li><a href="https://www.fiti.re.kr" target="_blank" rel="noopener" style="color:#fff;font-weight:500;">FITI 홈페이지 →</a></li>
               </ul>
             </div>
           </div>
