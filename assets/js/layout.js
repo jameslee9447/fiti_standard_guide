@@ -14,10 +14,6 @@ const Layout = {
               </div>
             </a>
 
-            <nav class="nav">
-              <a class="nav__link" href="index.html" data-i18n="nav.home">홈</a>
-            </nav>
-
             <div class="header__actions">
               <div class="lang-toggle">
                 <button data-lang="ko">KO</button>

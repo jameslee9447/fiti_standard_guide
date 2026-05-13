@@ -22,12 +22,13 @@ const App = {
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.getAttribute('data-i18n');
       const text = this.t(key);
-      if (text) el.textContent = text;
+      // 번역값이 있을 때만 교체. null이면 HTML의 기존(한글) 텍스트 유지
+      if (text !== null) el.textContent = text;
     });
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
       const key = el.getAttribute('data-i18n-placeholder');
       const text = this.t(key);
-      if (text) el.placeholder = text;
+      if (text !== null) el.placeholder = text;
     });
     document.querySelectorAll('.lang-toggle button').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.lang === this.state.lang);
@@ -39,9 +40,9 @@ const App = {
     let val = I18N[this.state.lang];
     for (const p of parts) {
       if (val && typeof val === 'object') val = val[p];
-      else return key;
+      else return null;  // 키 없으면 null (호출처에서 기본값 사용)
     }
-    return val || key;
+    return (typeof val === 'string') ? val : null;
   },
 
   text(obj) {
